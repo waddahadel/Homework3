@@ -80,7 +80,7 @@ axes[1].axhline(B, color='#f87171', linestyle='--', linewidth=1.5, label=f'True 
 axes[1].legend(fontsize=10, facecolor='#161b27', labelcolor='#e5e7eb')
 
 plt.tight_layout(pad=1.5)
-plt.savefig('/mnt/user-data/outputs/plot_dimension.png', dpi=150, bbox_inches='tight', facecolor='#0f1117')
+plt.savefig('plot_dimension.png', dpi=150, bbox_inches='tight', facecolor='#0f1117')
 plt.close()
 
 #  plot 2: MSE vs B 
@@ -102,6 +102,6 @@ ax.set_xticks(norms_B)
 ax.grid(True, color='#2d3748', linewidth=0.5)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/plot_norm.png', dpi=150, bbox_inches='tight', facecolor='#0f1117')
+plt.savefig('plot_norm.png', dpi=150, bbox_inches='tight', facecolor='#0f1117')
 plt.close()
 print("Done. Plots saved.")
